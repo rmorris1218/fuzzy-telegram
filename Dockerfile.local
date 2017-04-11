@@ -1,0 +1,13 @@
+# For Python 3.4, EB preconfigured docker container
+FROM amazon/aws-eb-python:3.4.2-onbuild-3.5.1
+ENV APP_STAGE=development
+
+# FROM ubuntu:latest
+# RUN apt-get update -y
+# RUN apt-get install -y python-pip python-dev build-essential
+# RUN echo 'INSTALLED!'
+# COPY . /app
+# WORKDIR /app
+# RUN pip install -r /app/requirements.txt
+# ENTRYPOINT ["python"]
+# CMD ["application.py"]
