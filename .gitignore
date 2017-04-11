@@ -1,7 +1,5 @@
 __pycache__
 .env
-led / optimized / DLL files
-__pycache__/
 *.py[cod]
 *$py.class
 
@@ -89,5 +87,3 @@ ENV/
 
 # Rope project settings
 .ropeproject
-
-
