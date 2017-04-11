@@ -12,7 +12,7 @@ def create_app():
         appfile = os.environ.get('FLASK_APP')
         secret = os.environ.get('SECRET_KEY')
         app_stage = os.environ.get('APP_STAGE')
-        return "FLASK_DEBUG: {} FLASK_APP: {} SECRET_KEY: {}" \
+        return "Hello CodePipeline! FLASK_DEBUG: {} FLASK_APP: {} SECRET_KEY: {}" \
         "APP STAGE: {}".format(
             debug, appfile, secret, app_stage
         )
